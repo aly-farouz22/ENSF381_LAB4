@@ -112,9 +112,15 @@ Description : Flex Layouts.
     			text-decoration: none; 
 			}
 
-    		.large, .medium, .small {
-        		width: 100%; 
-    		}
+			.large {
+			width: 100%;
+			}
+			.medium {
+				width: 70%;
+			}
+			.small {
+				width: 30%;
+			}
 }
 
 		@media screen and (max-width: 480px) {
@@ -124,10 +130,6 @@ Description : Flex Layouts.
 			.menu { display: inline-block;
 			width: 100%;  }
 			
-			.medium,
-			.small {
-				width: 100%;
-			}
 			.menu ul {
     			list-style-type: none;
     			padding: 0;
@@ -142,6 +144,10 @@ Description : Flex Layouts.
     			text-align: center; 
     			white-space: nowrap; 
 			}
+			.header h1 {
+                font-size: 18px;
+            }
+			
 
 
 		}
